@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鹿遥基站</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="icon" type="image/x-icon" href="dist/images/i/favicon.ico">
+	<link rel="stylesheet" href="dist/css/nec.css">
+<style>
+html,body{width: 100%;height: 100%;overflow: hidden;}
+	.spig {display:block;width:130px;height:170px;position:absolute;bottom: 300px;left:160px;z-index:9999;}
+#message{color :#191919;border: 1px solid #c4c4c4;background:#ddd;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;min-height:1em;padding:5px;top:-45px;position:absolute;text-align:center;width:auto !important;z-index:10000;-moz-box-shadow:0 0 15px #eeeeee;-webkit-box-shadow:0 0 15px #eeeeee;border-color:#eeeeee;box-shadow:0 0 15px #eeeeee;outline:none;}
+.mumu{width:260px;height:340px;cursor: move;background:url("dist/images/i/gwm.png") no-repeat;}
+</style>
+</head>
+<body>
+    <div class="content" style="width: 100%;height: 100%;overflow: auto;">
+        <div class="g-hd f-usn">
+            <div class="g-in">
+                <div class="m-head">
+                    <h1><a href="javascript:void(0)" class="deer_away_logo">麋鹿鲁哟的鹿遥基站</a></h1>
+                </div>
+            </div>
+        </div>
+        <div class="g-nv f-usn">
+            <div class="g-in">
+                <ul class="m-nav">
+                    <li class="first crt"><a href="javascript:void(0)">鹿遥基站：</a><i></i></li>
+                    <li class="first"><a href="javascript:void(0)" style="margin: 0;padding: 0;color: #ccc">一个有梦想的地方</a><i></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="g-bd">
+            <div class="g-in">
+                <div class="m-intro">
+                    <h2 class="u-ttb">基站</h2>
+                    <p>欢迎来到麋鹿鲁哟的鹿遥基站！本站框架采用<a href="http://nec.netease.com/" class="Netease" target="_blank"> 网易框架 nec.css </a></p>
+                </div>
+                <div class="u-line"><span class="linea"></span><span class="lineb"></span></div>
+                <div class="m-enter">
+                    <ul class="f-cb">
+                        <li>
+                            <a href="ly/ly_bank.html" class="ly_bank" target="_blank">
+                                <h3>代码库</h3>
+                                <p>网页特效代码存档</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ly/ly_link.html" class="ly_link" target="_blank">
+                                <h3>链接共享</h3>
+                                <p>每个人在这里推荐了一系列优质链接</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="ly_resume" target="_blank">
+                                <h3>个人简历模版</h3>
+                                <p>这里归集了大家的创意和想法</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="ly_game" target="_blank">
+                                <h3>小游戏</h3>
+                                <p>欢迎你来体验各样的小游戏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="ly_grid" target="_blank">
+                                <h3>格子站点</h3>
+                                <p>这里的每个人拥有 360 个格子来记录三十年的每个月</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="ly_blogs" target="_blank">
+                                <h3>个人博客</h3>
+                                <p>麋鹿鲁哟的博客站</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="ly_watermark" target="_blank">
+                                <h3>鹿遥在线水印</h3>
+                                <p>在线上传图片输入水印可下载</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="g-ft">
+            <div class="g-in">
+                <div class="m-ft">
+                    <p><a href="https://www.cnblogs.com/miluluyo/" target="_black">麋鹿鲁哟</a>|<a  href="https://www.cnblogs.com/miluluyo/" target="_black">大道至简，知易行难。</a></p>
+                    <p><a href="https://www.cnblogs.com/miluluyo/" target="_black">❤今天我这儿的太阳，正好适合晒钙 你呢❤</a></p>
+                    <p><a href="https://www.cnblogs.com/miluluyo/" target="_black">Copyright &copy; 2019-2020 Elk lu yo. All Rights Reserved. </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="spig" class="spig">
+<div id="message">欢迎来到麋鹿鲁哟的鹿遥基站！</div>
+<div id="mumu" class="mumu"></div>
+
+<!-- @NOPARSE -->
+<script type="text/javascript">
+(function(d) {
+    var _pageType = 'index';
+    var _title = encodeURIComponent(d.title);
+    var _url = encodeURIComponent(d.location);
+    var _temp = d.createDocumentFragment();
+    var _share = d.createElement('div');
+    _share.innerHTML = '<ul class="f-cb" id="share"><li><a href="'+'http://t.163.com/article/user/checkLogin.do?link='+_url+'&info='+_title+_url+'" target="_blank" title="分享到网易微博" class="s1">网易微博</a></li><li><a href="'+'http://v.t.sina.com.cn/share/share.php?title='+_title+_url+'" target="_blank" title="分享到新浪微博" class="s2">新浪微博</a></li><li><a href="'+'http://v.t.qq.com/share/share.php?title='+_title+'&url='+_url+'" target="_blank" title="分享到腾讯微博" class="s3">腾讯微博</a></li><li><a href="'+'http://widget.renren.com/dialog/share?resourceUrl='+_url+'&title='+_title+'" target="_blank" title="分享到人人网" class="s4">人人网</a></li><li><a href="'+'http://www.douban.com/recommend/?title='+_title+'&url='+_url+'" target="_blank" title="分享到豆瓣" class="s5">豆瓣</a></li></ul>';
+    _temp.appendChild(_share);
+    if(_pageType == 'library'){
+        _share.className = "m-share m-share-2 f-usn";
+        d.getElementById('bwrapin').appendChild(_temp);
+    }else if(_pageType == 'animator'){
+        _share.className = "m-share m-share-2 m-share-2-1 f-usn";
+        d.getElementById('anglobal').appendChild(_temp);
+        d.getElementById('share').style.display = 'none';
+    }else{
+    	_share.className = "m-share f-usn";
+        d.body.appendChild(_temp);
+    }
+})(document);
+
+</script>
+<script type="text/javascript" src="dist/js/jquery.min.js"></script>
+<script type="text/javascript" src="dist/js/spig.js"></script>
+</body>
+</html>
