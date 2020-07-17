@@ -2,6 +2,8 @@
 
 鹿遥基站，以前的一些 old 想法
 
+https://miluluyo.github.io/Deer-remote-base-station/home.html
+
 在此记录一下。
 
 ![Image text](https://github.com/Sunwendi/photo_gallery/blob/master/Deer-remote-base-station.png?raw=true)
