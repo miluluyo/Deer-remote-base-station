@@ -105,26 +105,26 @@ html,body{width: 100%;height: 100%;overflow: hidden;}
 
 <!-- @NOPARSE -->
 <script type="text/javascript">
-(function(d) {
-    var _pageType = 'index';
-    var _title = encodeURIComponent(d.title);
-    var _url = encodeURIComponent(d.location);
-    var _temp = d.createDocumentFragment();
-    var _share = d.createElement('div');
-    _share.innerHTML = '<ul class="f-cb" id="share"><li><a href="'+'http://t.163.com/article/user/checkLogin.do?link='+_url+'&info='+_title+_url+'" target="_blank" title="分享到网易微博" class="s1">网易微博</a></li><li><a href="'+'http://v.t.sina.com.cn/share/share.php?title='+_title+_url+'" target="_blank" title="分享到新浪微博" class="s2">新浪微博</a></li><li><a href="'+'http://v.t.qq.com/share/share.php?title='+_title+'&url='+_url+'" target="_blank" title="分享到腾讯微博" class="s3">腾讯微博</a></li><li><a href="'+'http://widget.renren.com/dialog/share?resourceUrl='+_url+'&title='+_title+'" target="_blank" title="分享到人人网" class="s4">人人网</a></li><li><a href="'+'http://www.douban.com/recommend/?title='+_title+'&url='+_url+'" target="_blank" title="分享到豆瓣" class="s5">豆瓣</a></li></ul>';
-    _temp.appendChild(_share);
-    if(_pageType == 'library'){
-        _share.className = "m-share m-share-2 f-usn";
-        d.getElementById('bwrapin').appendChild(_temp);
-    }else if(_pageType == 'animator'){
-        _share.className = "m-share m-share-2 m-share-2-1 f-usn";
-        d.getElementById('anglobal').appendChild(_temp);
-        d.getElementById('share').style.display = 'none';
-    }else{
-    	_share.className = "m-share f-usn";
-        d.body.appendChild(_temp);
-    }
-})(document);
+// (function(d) {
+//     var _pageType = 'index';
+//     var _title = encodeURIComponent(d.title);
+//     var _url = encodeURIComponent(d.location);
+//     var _temp = d.createDocumentFragment();
+//     var _share = d.createElement('div');
+//     _share.innerHTML = '<ul class="f-cb" id="share"><li><a href="'+'http://t.163.com/article/user/checkLogin.do?link='+_url+'&info='+_title+_url+'" target="_blank" title="分享到网易微博" class="s1">网易微博</a></li><li><a href="'+'http://v.t.sina.com.cn/share/share.php?title='+_title+_url+'" target="_blank" title="分享到新浪微博" class="s2">新浪微博</a></li><li><a href="'+'http://v.t.qq.com/share/share.php?title='+_title+'&url='+_url+'" target="_blank" title="分享到腾讯微博" class="s3">腾讯微博</a></li><li><a href="'+'http://widget.renren.com/dialog/share?resourceUrl='+_url+'&title='+_title+'" target="_blank" title="分享到人人网" class="s4">人人网</a></li><li><a href="'+'http://www.douban.com/recommend/?title='+_title+'&url='+_url+'" target="_blank" title="分享到豆瓣" class="s5">豆瓣</a></li></ul>';
+//     _temp.appendChild(_share);
+//     if(_pageType == 'library'){
+//         _share.className = "m-share m-share-2 f-usn";
+//         d.getElementById('bwrapin').appendChild(_temp);
+//     }else if(_pageType == 'animator'){
+//         _share.className = "m-share m-share-2 m-share-2-1 f-usn";
+//         d.getElementById('anglobal').appendChild(_temp);
+//         d.getElementById('share').style.display = 'none';
+//     }else{
+//     	_share.className = "m-share f-usn";
+//         d.body.appendChild(_temp);
+//     }
+// })(document);
 
 </script>
 <script type="text/javascript" src="dist/js/jquery.min.js"></script>
